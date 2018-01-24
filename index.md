@@ -1,48 +1,29 @@
-# Ideas for Senegal Project
+# The Role of Utilities
 
-### Project
-- Focus on utilities
-    - Water, Electricity, Telecom
+This site exists to investigate whether access to and physical placement of public utilities, particularly [water](water.md), [electricity](electricity.md), and [telecommunications](telecom.md) can help us better understand poverty in Senegal.
 
-**What is the current state of utilities in Senegal and are utilities related to anything else?**
+## What do we mean by inequality, and how do we measure it?
+From access to public services like healthcare to educational attainment and income disparity, there are a number of ways to measure poverty and inequality. The metric used to measure poverty for this project is [MPI](https://en.wikipedia.org/wiki/Multidimensional_Poverty_Index), which is a widely-used metric designed to measure acute poverty.[^1] Higher MPI indicates greater poverty and lower access to resources, while lower MPI indicates the inverse.
 
-- Scope: Dakar or Senegal (Preferably Senegal as a whole)
+| ![MPI map of Senegal](./Resources/Livelihood_Zones/senegal_mpi_map.jpg) |
+|:--:|
+| *MPI Map of Senegal* |
 
-- Who gets access to utilities first and why?
 
-- Where is development happening now?
+Inequality between the wealthy and the middle class in Senegal may also have an interesting relationship with the placement of and access to utilities, but it is very difficult to make statements about actual happiness and life satisfaction after a certain income level, while there is good evidence to support that lack of access to basic needs like healthcare, education, and sanitation cause people to report lower life satisfaction and greater emotional pain when bad things occur[^2]
 
-- What do people use cell coverage, wifi, water, and electricity for?
+While one of the great advantages of MPI is that it is designed to be robust to decomposition within the relevant sub-groups of populations like urban vs. rural, geographic regions, ethnicity, and gender, and the data it depends on is available with high fidelity in Senegal[^3], calculation of MPI is partially based on access to water and electricity which may bias some of the findings on this site to have a stronger correlation with MPI than if those factors were controlled for. Fortunately, access to water and electricity alone make up relatively small portions of the MPI calculation[^4]
 
-- What are the implications of some people having more and others not?
 
-- How does Senegal compare to surrounding nations?
+## Abstract and Findings
+Each of the three utilities have different lessons to teach us about inequality in the republic of Senegal.
 
-- Relationship between utilities and population density
+[Water](water.md) helps us map need, and where people are furthest away from obtaining their basic needs.
 
-- Relationship between utilities and average income
+[Telecommunications](telecom.md) and [electricity](electricity.md) demonstrate where information-based wealth is and gives us unprecedented granularity for understanding and mapping poverty. Telecom also demonstrates how infrastructure can influence conditions in regions in Senegal in addition to helping us study them.
 
-- Relationship between utilities and patents
-
-- Are there things that utilities can tell us that traditional measures cannot
-
-### Resources
-
-#### Internet/Bandwidth
-
-- https://tradingeconomics.com/senegal/international-internet-bandwidth-mbps-wb-data.html
-
-#### Cellular Map
-
-- https://www.nperf.com/en/map/SN/-/49.Orange/signal/?ll=14.33651725732605&lg=-14.466950836181695&zoom=7
-
-#### Water
-- https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Senegal (do not cite)
-
--
-
-#### Electricity
-- Photos from the archives
-
-#### General Utilities
-- https://tradingeconomics.com/senegal/international-internet-bandwidth-bits-per-person-wb-data.html
+## Footnotes
+[^1]: http://www.ophi.org.uk/wp-content/uploads/MPI_2011_Methodology_Note_4-11-2011_1500.pdf?cda6c1
+[^2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2944762/
+[^3]: https://arxiv.org/abs/1506.03401, page 2
+[^4]: Electricity and water make up (1/18th) of the MPI calculation respectively, while factors like access to education make up (1/6th)
