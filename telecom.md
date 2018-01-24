@@ -1,6 +1,6 @@
 # Telecommunications
 
-This page contains more information about the [Fiber Optic Cable System](#fiber-optics), 
+This page contains more information about the [Fiber Optic Cable System](#fiber-optics), a specific investigation on how [cellular activity might be used to map poverty at high resolution](#cellular-and-poverty), and [brief history](#history) of telecom in Senegal to give the analysis context.
 
 ## Cellular and Poverty
 ![Senegal Cell Towers](./Resources/Telecom/Telecom_Maps/Cell_Towers_Senegal.png)
@@ -47,6 +47,9 @@ Fiber optic cables don't only serve wifi connections but are also serve a signif
 The Fiber Optic cables are telling because they show where the government of Senegal and large semi-public stakeholders like Sonatel think connectivity to telecommunications services is most important. There are definitely external factors influencing the placement of the cables, like connections with other nations and natural barriers, but the lines go reliably through the major cities of Dakar, Thies, and Saint-Louis, as well as other populous areas like Tambacounda.
 
 Not only do the fiber optic cables tell us where planners think the information centers of the country are, they also can turn areas that are otherwise struggling into information centers as discussed in the case of Zinguinchor
+
+## History
+
 
 
 
