@@ -21,20 +21,9 @@ One of the problems inherit in electricity planning for the rural areas is that 
 ### First electric commission in Dakar (1904)
 In order to learn more about the history of the electric grid of Senegal, some research was conducted in the National Archives in Medina. The earliest planning document about the electric grid is a 1904 letter from
 
-It appears that the chief purpose of the creation of the grid was 
+It appears that the chief purpose of the creation of the grid was to provide public lighting and improve reliability of telegram. The Mayor of Dakar at the time was also very involved, and needed to approve all parts of the process.
 
-- Mayor of Dakar was also involved
-
-- Dakar and St. Louis had a "Compagnie du Chemin" that was tasked with the creation of the electric system in Dakar
-
-- Light, power, and electric traction were goals
-
-- Lighting public roads
-
-- 50,000 francs for the project
- - Figure out how much one 1905 franc was in current USD
-
-- Something about 30,000 francs annually
+![Archive Map](./Resources/Electricity/Archives/IMG_0270.jpg)
 
 [^1]: A Sanoh et. all, Energy for Sustainable Development, page 16
 [^2]: Ibid, page 16

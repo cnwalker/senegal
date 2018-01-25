@@ -8,9 +8,7 @@ This site exists to investigate whether access to and physical placement of publ
 ## Abstract and Findings
 Each of the three utilities have different lessons to teach us about inequality in the republic of Senegal.
 
-[Water](water.md) helps us map need, and where people are furthest away from obtaining their basic needs.
-
-(Add water findings here)
+[Water](water.md) helps illustrate the complexity of understanding when progress is made in an area. As demonstrated by the increase in access of water in rural areas in Senegal, but neglect of the quality.
 
 [Telecommunications](telecom.md) and [electricity](electricity.md) demonstrate where information-based wealth is and may give unprecedented granularity for understanding and mapping poverty. Telecom also demonstrates how infrastructure can influence conditions in regions in Senegal in addition to helping us study them.
 

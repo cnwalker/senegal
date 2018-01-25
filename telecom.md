@@ -16,8 +16,6 @@ While the results were excellent in terms mapping the information wealth of the 
 
 Centrality is the "importance" of a node in a network. In this case the nodes are the major regions of Senegal and the connections are mobile telephone traffic between regions. In this case the metric of "activity" which is the net flow into a node from other nodes was not as well correlated with MPI as eigenvector centrality, which was not as well correlated as the most highly correlated algorithm in the paper which was page rank. Upon inspection though, it seems like the benefits of using page rank over eigenvector neutrality were quite marginal.
 
-The simplest measure of centrality is activity, which essentially measures which nodes in the graph contain the most traffic
-
 There are a number of issues with the paper's methodology however. For one, the paper's dataset is only Orange data and only contains calls within Dakar.
 
 Tigo and Expresso have footholds in Dakar and St. Louis, and to a lesser extent in Zinguinchor and Tambacounda. Tigo and Expresso had market share of 23% and 21% respectively as of 2017. The addition of the data from these providers would likely increase the centrality of Dakar, St. Louis, Zinguinchor, and Tambacounda beyond that of the existing model, which would likely have the affect of making the areas not covered by Tigo and Expresso correlate more strongly with a lower MPI.
@@ -36,6 +34,7 @@ In addition, because of the large amount of foreign calls in Senegal (remittance
 
 Notice that Tambacounda's MPI is high compared to others with similar levels of connectivity. Because many of the cell towers in Senegal are ultimately served by fiber optic cables[^2] it is possible that cellular service is much better in the Tambacounda region because of the proximity to the main fiber lines.
 
+Fortunately the researchers recently received a grant from the Bill and Melinda Gates foundation to increase the resolution of their model and test their findings.
 
 ## Fiber Optics
 The internet is a series of tubes,[^1] and some of those tubes go through Senegal:
@@ -63,6 +62,8 @@ Sonatel was Senegal's state-owned telecom provider until 1997 when it was privat
 
 Orange was dominant in Senegal until 2011, when Tigo and Expresso began competing. However even today only urban areas are truly competitive.
 
+
+## Footnotes
 [^12]: https://tradingeconomics.com/senegal/international-internet-bandwidth-mbps-wb-data.html
 [^1]: U.S Senator Ted Stevens of Alaska
 [^2]: Add Intra Africa Cable map citation here
