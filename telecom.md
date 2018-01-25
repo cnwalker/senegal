@@ -12,21 +12,15 @@ Researchers at the Department of Computer Science at SUNY Buffalo found an incre
 |:--:|:--:|
 | ![Cell Towers and Poverty](./Resources/Telecom/Telecom_Maps/Poverty_and_Cell_Towers.png)| Link and communication volume overlaid with normal MPI |
 
-While the results were excellent in terms mapping the information wealth of the country, the correlation with MPI was not resistant to the removal of Dakar from the dataset. However, when they looked at behavioral metrics like the number of outbound calls, they found a very  
+While the results were excellent in terms mapping the information wealth of the country, the correlation of raw communication and link volume with MPI was not resistant to the removal of Dakar from the dataset. However, when they looked at behavioral metrics, specifically outbound calls between 8pm and 12pm, they found a very strong correlation (0.92 r) with MPI.
 
-- Paper finds excellent correlation between network centrality and MPI in Senegal
+Centrality is the "importance" of a node in a network. In this case the nodes are the major regions of Senegal and the connections are mobile telephone traffic between regions. In this case the metric of "activity" which is the net flow into a node from other nodes was not as well correlated with MPI as eigenvector centrality, which was not as well correlated as the most highly correlated algorithm in the paper which was page rank. Upon inspection though, it seems like the benefits of using page rank over eigenvector neutrality were quite marginal.
 
-- Dakar has a strong influence on the MPI/Cell-tower correlation, but not when you take into account specific behaviors
+The simplest measure of centrality is activity, which essentially measures which nodes in the graph contain the most traffic
 
-- Paper includes calls initiated as key behavioral metric
+There are a number of issues with the paper's methodology however. For one, the paper's dataset is only Orange data and only contains calls within Dakar.
 
-- Centrality is the importance of a network, in this case determined by flow. Describe Activity, Eigenvector, and PageRank and what each one actually means in practice. (Why Eigenvector is better than Activity, etc.)
-
-- Cell tower work allows for higher granularity poverty maps
-
-- Areas that don't correlate well with MPI do have a fiber optic cable running through them.
-
-- Paper only uses Orange data. Tigo and Expresso have footholds in Dakar and St. Louis, and to a lesser extent in Zinguinchor and Tambacounda. Tigo and Expresso had market share of 23% and 21% respectively as of 2017. The addition of the data from these providers would likely increase the centrality of Dakar, St. Louis, Zinguinchor, and Tambacounda beyond that of the existing model, which would likely have the affect of making the areas not covered by Tigo and Expresso correlate more strongly with a lower MPI.
+Tigo and Expresso have footholds in Dakar and St. Louis, and to a lesser extent in Zinguinchor and Tambacounda. Tigo and Expresso had market share of 23% and 21% respectively as of 2017. The addition of the data from these providers would likely increase the centrality of Dakar, St. Louis, Zinguinchor, and Tambacounda beyond that of the existing model, which would likely have the affect of making the areas not covered by Tigo and Expresso correlate more strongly with a lower MPI.
 
 | Tigo Coverage | Expresso Coverage |
 |:--:|:--:|
@@ -34,16 +28,13 @@ While the results were excellent in terms mapping the information wealth of the 
 
 An constantly updated map with cellular data from all three providers can be found [here](https://www.nperf.com/en/map/SN/-/49.Orange/signal/?ll=14.33651725732605&lg=-14.466950836181695&zoom=7).
 
-### On Centrality
-Centrality is a concept from graph theory that is based on determining the "importance" of a node in a network. The best way to think of centrality is, which node is the most popular? If you were to remove a node
-
-- Paper only has calls from within the country, losing out on the large effect that remittances and frequent international calling that may be taking place in rural areas
+In addition, because of the large amount of foreign calls in Senegal (remittances from Senegalese living abroad make up about 10% of GDP), it is possible that the actual number of outbound calls is poorly represented in the dataset used by the paper.
 
 | Cell Tower Connectivity |  Senegal Fiber |
 |:--:|:--:|
 | ![Cell Towers and Poverty](./Resources/Telecom/Telecom_Maps/Poverty_and_Cell_Towers.png) | ![Senegal Telecom Cable Map](./Resources/Telecom/Telecom_Maps/senegal_fiber_small.png) |
 
-- Notice that Tambacounda's MPI is high compared to others with similar levels of connectivity. Because many of the cell towers in Senegal are ultimately served by fiber optic cables[^2] it is possible that cellular service is much better in the Tambacounda region because of the proximity to the main fiber lines.
+Notice that Tambacounda's MPI is high compared to others with similar levels of connectivity. Because many of the cell towers in Senegal are ultimately served by fiber optic cables[^2] it is possible that cellular service is much better in the Tambacounda region because of the proximity to the main fiber lines.
 
 
 ## Fiber Optics
