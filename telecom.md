@@ -16,6 +16,10 @@ While the results were excellent in terms mapping the information wealth of the 
 
 Centrality is the "importance" of a node in a network. In this case the nodes are the major regions of Senegal and the connections are mobile telephone traffic between regions. In this case the metric of "activity" which is the net flow into a node from other nodes was not as well correlated with MPI as eigenvector centrality, which was not as well correlated as the most highly correlated algorithm in the paper which was page rank. Upon inspection though, it seems like the benefits of using page rank over eigenvector neutrality were quite marginal.
 
+| Normal MPI map | Cellular Model MPI Map |
+|:--:|:--:|
+| ![MPI map of Senegal](./Resources/Livelihood_Zones/senegal_mpi_map.png)| ![Cellular poverty map](./Resources/Telecom/Telecom_Maps/High_Granularity_Poverty_Map.png) |
+
 There are a number of issues with the paper's methodology however. For one, the paper's dataset is only Orange data and only contains calls within Dakar.
 
 Tigo and Expresso have footholds in Dakar and St. Louis, and to a lesser extent in Zinguinchor and Tambacounda. Tigo and Expresso had market share of 23% and 21% respectively as of 2017. The addition of the data from these providers would likely increase the centrality of Dakar, St. Louis, Zinguinchor, and Tambacounda beyond that of the existing model, which would likely have the affect of making the areas not covered by Tigo and Expresso correlate more strongly with a lower MPI.
