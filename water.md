@@ -1,8 +1,6 @@
 # Water
 > Drinking water is like washing out your insides. The water will cleanse the system, fill you up, decrease your caloric load and improve the function of all your tissues.[^1]
 
-- Drill down on the water vs. inequality situation
-
 This page will discuss the [current state of water access in Senegal](#overview), the [water sources](#water-sources) that Senegal draws upon to provide water to residents, and some statements on [what water might be able to teach us about inequality in Senegal](#water-and-inequality)
 
 ## Overview
