@@ -59,7 +59,7 @@ Fiber optic cables don't only serve wifi connections but are also serve a signif
 ### What can fiber optic cables tell us?
 The Fiber Optic cables are telling because they show where the government of Senegal and large semi-public stakeholders like Sonatel think connectivity to telecommunications services is most important. There are definitely external factors influencing the placement of the cables, like connections with other nations and natural barriers, but the lines go reliably through the major cities of Dakar, Thies, and Saint-Louis, as well as other populous areas like Tambacounda.
 
-Not only do the fiber optic cables tell us where planners think the information centers of the country are, they also can turn areas that are otherwise struggling into information centers as discussed in the case of Zinguinchor
+Not only do the fiber optic cables tell us where planners think the information centers of the country are, they also can turn areas that are otherwise struggling into information centers as discussed in the case of Zinguinchor. It is also worth noting that while Zinguinchor seems to have low MPI overall, the cellular map projects much lower MPI (greater wealth) for the areas in Zinguinchor that are closer to fiber optic cables, even though those areas don't have a great deal more cell towers.
 
 ## History
 Sonatel was Senegal's state-owned telecom provider until 1997 when it was privatized. The fiber optic cables were laid throughout the late 1990s and early 2000s.

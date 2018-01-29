@@ -32,7 +32,9 @@ It appears that the chief purpose of the creation of the grid was to provide pub
 
 A very interesting aspect of the early Dakar electricity project in the archives is that many of the requirements changed from the original plan, including the number of years the project would take as can be seen by the 30 years crossed out to be replaced with 50 years in the letter above.
 
-That aspect of planning electric grids at least hasn't changed, as a large percentage of the difficulty of providing electric access to rural areas
+That aspect of planning electric grids at least hasn't changed, as a large percentage of the difficulty of providing electric access to rural areas is projecting costs and electricity usage.
+
+It is also interesting that because the uses of electricity at the time were primarily urban, like telegraph and lighting, the foundations built on in 1904 have tremendous impacts on electric costs for all sorts of other electricity powered activities today.
 
 [^1]: A Sanoh et. all, Energy for Sustainable Development, page 16
 [^2]: Ibid, page 16
