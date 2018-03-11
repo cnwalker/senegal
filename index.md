@@ -1,3 +1,5 @@
+[Click here to download a video game where you live as a farmer in the colonial senegambia](Resources/Senegambian_Trails_Build.zip)
+
 # The Role of Utilities
 This site exists to investigate whether access to and physical placement of public utilities, particularly [water](water.md), [electricity](electricity.md), and [telecommunications](telecom.md) can help us better understand poverty in Senegal.
 
